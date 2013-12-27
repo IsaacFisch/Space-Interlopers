@@ -1,0 +1,32 @@
+.shipContainer {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+
+.shipBody {
+    position: absolute;
+    background-image: url("./img/fighter-green.png");
+    width: 85px;
+    height: 85px;
+    z-index: 30;
+}
+
+.exhaust {
+    position: absolute;
+    background-image: url("./img/exhaust-1.png");
+    height: 64px;
+    width: 43px;
+    background-size: cover;
+    z-index: 20;
+}
+
+.exhaust.left {
+    left: 10px;
+    top: 63px;
+}
+
+.exhaust.right {
+    left: 32px;
+    top: 63px;
+}
